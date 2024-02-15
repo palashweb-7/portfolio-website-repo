@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+ 
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav >ul{
+    display: flex;
+    align-items: center;
+   
+}
+
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+
+ul> li> a{
+    text-decoration: none;
+   
+}
+h3{
+    font-size:45px ;
+    font-family:open sans;
+    font-weight: 1800;
+    color: black;
+}
+
+.text-primary{
+    color: #fdf7f2;
+    background-color: darkorange;
+    border: none;
+    padding: 13px 14px;
+    border-radius: 3px;
+    font-weight: 700;
+    font-size: 16px;
+}
