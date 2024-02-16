@@ -89,9 +89,26 @@ header{
     font-weight: 700;
     font-size: 35px;
     text-align: center;
+    margin-bottom: 10px;
 }
 .section-description{
     text-align: center;
     font-size: 18px;
     color: darkgray;
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+  
+   margin-top: 30px;
+}
+.about-section> .info{
+    align-items: center;
+}
+.sum-info{
+   
+    text-align: center;
+}
+h4{
+    margin-top: 8px;
 }
