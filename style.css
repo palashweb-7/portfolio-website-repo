@@ -59,7 +59,14 @@ h3{
 
 header{
     background-color: rgb(254, 245, 226);
+    background-image: url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 700px;
+    margin-bottom: 0px;
 }
+
+
 .banner{
     padding: 50px 30px 30px 150px;
     display: flex;
@@ -67,4 +74,24 @@ header{
 }
 .profile-pic{
     width: 500px;
+    margin-left: 200px;
+}
+.banner-content{
+    max-width: 500px;
+}
+.about-section{
+    padding: 130px;
+    background-color: antiquewhite;
+    margin: 130px;
+}
+.section-title{
+    color: black;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+}
+.section-description{
+    text-align: center;
+    font-size: 18px;
+    color: darkgray;
 }
