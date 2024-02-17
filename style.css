@@ -112,6 +112,45 @@ header{
 h4{
     margin-top: 8px;
 }
+
+.what-i-do-container{
+    padding: 30px 150px;
+}
+
 #what-i-do{
     padding: 30px 150px;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+   padding: 30px;
+   border-radius: 5px;
+   background: #FFF;
+
+   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+   
+}
+p{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.resume-container{
+    display: flex;
+    padding: 0 130px;
+    gap: 50px;
+}
+.resume-section hr{
+    margin: 30px;
+}
+.btn-primary{
+    padding: 7px;
+    background-color: orangered;
+    color: white;
+    font-weight: 700;
+    border: 0;
+    font-size: 18px;
+    border-radius: 5px;
 }
